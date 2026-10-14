@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.chroma/
+.uploads/
+.pytest_cache/
+evaluation/results/
+.DS_Store
+.vscode/

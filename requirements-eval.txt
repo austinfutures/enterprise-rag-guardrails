@@ -1,0 +1,9 @@
+# Optional: LLM-judged evaluation (Ragas) + tracing (Arize Phoenix).
+# Kept separate so the core service installs fast and CI runs without an API key.
+-r requirements.txt
+ragas==0.4.3
+arize-phoenix-otel==0.17.2
+openinference-instrumentation-langchain==0.1.79
+
+# Only needed to regenerate data/corvanta_fy2025_annual_financial_summary.pdf
+reportlab==5.0.1
